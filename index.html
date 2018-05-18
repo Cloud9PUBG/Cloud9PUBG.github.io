@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>VAC BANNING!!!</title>
+<!--<link rel="stylesheet" href="bsod.css" type="text/css" media="all" />-->
+<style type="text/css">
+body {
+    background:#1A4B80;
+    color:#ffffff;
+    font-family:courier;
+    font-size:12pt;
+    text-align:center;
+    margin:100px;
+	font-style:bold;
+}
+
+blink {
+    color:yellow;
+}
+
+p.neg {
+    background:#fff;
+    color:#0000aa;
+    padding:2px 8px;
+    font-weight:bold;
+}
+
+p {
+    margin:30px 100px;
+    text-align:left;
+}
+
+a,a:hover {
+    color:inherit;
+    font:inherit;
+}
+
+.menu {
+    text-align:center;
+    margin-top:50px;
+}
+.jk {
+    color: #265D98;
+
+}
+#numbDays {
+    color: #ffffff;
+    font-width: bolder;
+    font-size: 50px;
+}
+</style>
+</head>
+</center>
+<body>
+<span class="neg">I am now hacking your computer.....</span>
+
+<img src="images/troll-face.png" alt="Getting Hacked">
+<p>
+Beacause you are a dumbass and think that I hack, well I guess now I will hack your computer.
+</p>
+<p>
+* By pressing any key you acknowledge that you are giving me access to your computer. <br/>
+* Press any key to allow me to hack your computer.<br />
+
+* Press CTRL+ALT+DEL to give me access to all of your devices on your network. <br />
+* Now your only option is to hold the power button for 10 seconds. <br/>
+</p>
+Press any key to continue....
+
+<script type="text/javascript" src="assets/js/title.js"></script>
+<script>
+
+    var startDate = new Date(2006, 6, 31);
+    var currentDate = new Date();
+    var date1_unixtime = parseInt(startDate.getTime() / 1000);
+    var date2_unixtime = parseInt((currentDate.getTime() / 1000));
+    var diff = date2_unixtime - date1_unixtime;
+    var diffHours = diff / 60 / 60;
+    var diffDays = Math.round(diffHours / 24);
+    var numberDays = Math.round(Math.abs((currentDate.getDate() - startDate.getTime()) / 60));
+    document.getElementById("numbDays").innerHTML = diffDays;
+
+</script>
+</html>
